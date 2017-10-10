@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hrishi.classtest2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <com.example.hrishi.classtest2.MainActivity.RecordButtonton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start recording"
+            android:id="@+id/startButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30sp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.RelativeLayout>
